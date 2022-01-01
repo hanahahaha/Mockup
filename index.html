@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Kreasi Nurul Fikri</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/" />
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kreasi Nurul Fikri</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#myCarousel">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimoni">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Main</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="assets/img/b.jpeg"><rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Selamat Datang di Kreasi Nurul Fikri!</h1>
+                <p>Coding is today's languange of creativity</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign in</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="assets/img/Wallpaper.jpeg"><rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Taruh Codinganmu Disini</h1>
+                <p>Dengan mudah kalian bisa menaruh code atau project yang telah kalian buat disini</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Upload here</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="assets/img/c.jpeg"><rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Apa yang mau kamu pelajari?</h1>
+                <p>Pelajaran berbentuk video, presentasi pdf, dan quiz</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Lesson</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container marketing" id="testimoni">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/nadiem.jpg" class="bd-placeholder-img rounded-circle" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <h2>Nadiem Makarim</h2>
+            <p>"Semua orang bisa mencuri idemu, tetapi tidak semua orang bisa mengeksekusi idemu sebaik dirimu"</p>
+            <p>-Menteri Pendidikan dan Kebudayaan</p>
+            <p><a class="btn btn-secondary" href="https://id.wikipedia.org/wiki/Nadiem_Makarim">More</a></p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/larry.jpg" class="bd-placeholder-img rounded-circle" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <h2>Larry Page</h2>
+            <p>"Basically, our goal is to organize the world's information and to make it universally, accessible, and useful"</p>
+            <p>-CEO Google LLC</p>
+            <p><a class="btn btn-secondary" href="https://id.wikipedia.org/wiki/Larry_Page">More</a></p>
+          </div>
+        </div>
+        <hr class="featurette-divider" id="feature" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Coding</h2>
+            <p class="lead">Kreasi Nurul Fikri diutamakan untuk meletakkan hasil code atau project yang telah dibuat oleh mahasiswa/i STT NF.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Upload here</a></p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <img src="assets/img/d.jpeg" height="70%">
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 text-end">
+            <h2 class="featurette-heading">Achievement</h2>
+            <p class="lead">Selain codingan, disini juga bisa melihat prestasi atau pencapaian yang telah dilakukan para mahasiswa/i STT NF baik akademik maupun nonakademik.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">We are winner</a></p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <img src="assets/img/e.jpeg" height="70%">
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Community</h2>
+            <p class="lead">
+              Ketahui club-club apa saja yang ada di STT NF! kita bisa terkoneksi dengan orang-orang yang se-frekuensi, juga bisa sharing ilmu bersama.
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="#">Check club</a></p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <img src="assets/img/f.jpeg" height="70%">
+            </svg>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center">Bekerja sama dengan :</h2>
+        </div>
+        <div class="row mt-5 mb-5 text-center">
+          <div class="col-12 col-sm-3">
+            <img src="assets/img/google.png" alt="" srcset="" height="50px"/>
+          </div>
+          <div class="col-12 col-sm-3">
+            <img src="assets/img/kampusmerdeka.png" alt="" srcset="" height="50px"/>
+          </div>
+          <div class="col-12 col-sm-3">
+            <img src="assets/img/kominfo.png" alt="" srcset="" height="50px"/>
+          </div>
+          <div class="col-12 col-sm-3">
+            <img src="assets/img/microsoft.png" alt="" srcset="" height="50px"/>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+      </div>
+      <footer class="container">
+        <div class="row">
+          <div class="col-2">site name</div>
+          <div class="col-3 col-sm-5">
+            <a href=""> Menu 1</a>
+            <a href=""> Menu 2</a>
+            <a href=""> Menu 3</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-3">
+            <button class="btn-btn-secondary">Icon 1</button>
+            <button class="btn-btn-secondary">Icon 2</button>
+            <button class="btn-btn-secondary">Icon 3</button>
+          </div>
+          <div class="col-lg-6 mt-3 text-end">
+            <input type="text" placeholder="enter your email" />
+            <button type="submit">Join</button>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
